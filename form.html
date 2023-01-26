@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://www.google.com" method="get">
+        <p>This is where the form begins
+            <input type="text" name="search" />
+        </p>
+        <p>Please type in your password
+            <input type="password" name="password" />
+        </p>
+    </form>
+    <form action="https://www.google.com" method="get">
+        <p>What did you think of this gig?</p>
+        <textarea name="comments">
+            Enter your comments
+        </textarea>
+    </form>
+    <form action="https://www.google.com" method="get">
+        <p>Please select your faviorite genre:
+            <br />
+            <input type="radio" name="genre" value="rock">Rock
+            <input type="radio" name="genre" value="pop">Pop
+            <input type="radio" name="genre" value="jazz">Jazz
+            <input type="radio" name="genre" value="jazz">Jazz
+        </p>
+    </form>
+    <br />
+    <form action="https://www.google.com" method="get">
+        <p>Please select your faviorite genres:
+            <br />
+            <input type="checkbox" name="genre" value="rock">Rock
+            <input type="checkbox" name="genre" value="pop">Pop
+            <input type="checkbox" name="genre" value="jazz">Jazz
+            <input type="checkbox" name="genre" value="jazz">Jazz
+        </p>
+    </form>
+    <br />
+    <form action="https://www.google.com" method="get">
+        <p>Please select your faviorite genres:
+            <select>
+                <option value="rock">Rock</option>
+                <option value="pop">Pop</option>
+                <option value="jazz">Jazz</option>
+                <option value="jazzz" selected>Jazzz</option>
+            </select>
+        </p>
+    </form>
+    <form action="https://www.google.com" method="get">
+        <p>Please select your faviorite genres:
+            <select name="genre" size="2" multiple="multiple">
+                <option value="rock">Rock</option>
+                <option value="pop">Pop</option>
+                <option value="jazz">Jazz</option>
+                <option value="jazzz" selected="selected">Jazzz</option>
+            </select>
+        </p>
+    </form>
+    <form action="https://www.google.com" method="post">
+        <input type="file" name="user-song" />
+        <input type="submit" value="upload" />
+    </form>
+    <fieldset>
+        <legend>Long form it is</legend>
+        <form action="https://www.google.com" method="get">
+            <p>Please select your faviorite genres:
+                <select name="genre" size="2" multiple="multiple">
+                    <option value="rock">Rock</option>
+                    <option value="pop">Pop</option>
+                    <option value="jazz">Jazz</option>
+                    <option value="jazzz" selected="selected">Jazzz</option>
+                </select>
+            </p>
+        </form>
+    </fieldset>
+</body>
+</html>
