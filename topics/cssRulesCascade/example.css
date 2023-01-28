@@ -23,5 +23,5 @@ p#intro {
     font-size: 100%;
 }
 p {
-    font-size: 75%;
+    font-size: inherit;
 }

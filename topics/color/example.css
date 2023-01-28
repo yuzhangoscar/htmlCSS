@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(200,200,200);
+}
+h1{
+    color: darkcyan;
+    background-color: darkblue;
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+h2{
+    color:#ee3e80;
+    background-color: aqua;
+}
+p:hover{
+    color: rgb(100,100,90, 0.3);
+    background-color: bisque;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration: line-through;
+    line-height: 2.4em;
+    letter-spacing: 0.3em;
+    text-align: left;
+    vertical-align: text-bottom;
+    text-indent: 50px;
+    text-shadow: 2px 2px 7px red;
+}
