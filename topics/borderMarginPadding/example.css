@@ -1,0 +1,21 @@
+#one {
+    border-style: dashed;
+    border-width:1em;
+    padding-top: 3%;
+    margin:4%;
+    box-shadow: -5px -15px;
+}
+
+#two {
+    border-style: double;
+    border-width: 0.5em;
+    padding: 5%;
+    visibility: visible;
+}
+
+#three {
+    border-style:groove;
+    border-width: 0.5em 0.1em 0.2em 3em;
+    border-color: aqua red blue yellow;
+    display:block;
+}
