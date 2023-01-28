@@ -1,0 +1,12 @@
+div.box{
+    height:80%;
+    width:80%;
+    background-color: red;
+}
+p {
+    min-height: 10px;
+    max-height: 30px;
+    background-color: blue;
+    line-height: 1.2em;
+    overflow: hidden;
+}
