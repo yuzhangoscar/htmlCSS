@@ -2,6 +2,7 @@ body {
     width: 750px;
     font-family: Arial, Helvetica, sans-serif;
     color: red;
+    z-index: 3;
 }
 h1 {
     background-color: blue;
@@ -12,7 +13,8 @@ p {
 }
 
 p.example {
-    position:relative;
+    position:absolute;
     top:10px;
     left:700px;
+    z-index: 2;
 }
