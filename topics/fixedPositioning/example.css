@@ -7,7 +7,10 @@ h1 {
     background-color: blue;
     padding: 10px;
     position: fixed;
+    z-index: 15;
 }
 p {
+    position: relative;
     width: 850px;
+    z-index:10;
 }
