@@ -1,0 +1,34 @@
+.container {
+    display: grid;
+    justify-items: center;
+    padding: 5px;
+    border: 0.1em solid blue;
+    column-gap: 0.5em;
+    row-gap: 0.5em;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "hamburgerMenu  hamburgerMenu  hamburgerMenu  icon"
+    "videoList  videoList  videoList icon"
+    "videoList  videoList  videoList icon"
+    ;
+}
+
+.box {
+    border:0.1em solid red;
+}
+
+#box1 {
+    grid-area: hamburgerMenu;
+    border: 0.1em solid blue;
+}
+
+#box2 {
+    grid-area: icon;
+    border: 0.1em solid yellow
+}
+
+#box3 {
+    grid-area: videoList;
+    border: 0.1em solid orange
+}
