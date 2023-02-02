@@ -11,6 +11,11 @@
     border: 0.1em solid yellow;
 }
 
+.containerFrPxMixed {
+    display:grid;
+    grid-template-columns: 1fr 50px 1fr 1fr; /*each 1fr takes up one third of the total space minus 50px*/
+}
+
 .box {
     border:0.1em solid red;
 }
