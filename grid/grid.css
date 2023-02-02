@@ -5,6 +5,12 @@
     border: 0.1em solid blue;
 }
 
+.containerRepeat {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 0.1em solid yellow;
+}
+
 .box {
     border:0.1em solid red;
 }
