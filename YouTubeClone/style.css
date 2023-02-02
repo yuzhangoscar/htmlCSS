@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: grid;
+    border:2px solid blue;
+    row-gap: 1em;
+    column-gap: 1em;
+}
+
+.leftSideBarWrapper {
+    display: grid;
+    border:2px solid green;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.topBarWrapper {
+    grid-column-start: 2;
+    border:2px solid yellow;
+    grid-row-start:1;
+}
+
+.videoWrapper {
+    display: grid;
+    border:2px solid red;
+    grid-column-start: 2;
+    grid-row-start:2;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}

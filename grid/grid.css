@@ -1,0 +1,10 @@
+.container {
+    display: grid;
+    grid-template-columns: [firstColumn] 1fr [secondColumn] 1fr [thirdColumn] 1fr [fourthColumn] 1fr [fifthColumn] 1fr [end];
+    grid-template-rows: [firstRow] 100px [secondRow] 100px [thirdRow] 100px;
+    border: 0.1em solid blue;
+}
+
+.box {
+    border:0.1em solid red;
+}
